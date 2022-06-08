@@ -1,8 +1,18 @@
-<p class="titre"> Exo2. Créer trois variables lastname , firstname et age et les initialiser avec les valeurs de votre choix.  Attention age est de type entier.  Afficher leur contenu. </p>
+<link rel="stylesheet" href="public/assets/css/style.css">
 
-<p class="exo"<?php
-$lastname = 'bob';
-$firstname = 'vance';
-$age = 28;
-echo "> $lastname, $firstname, $age "
-?></p>
+<p class="titre"> Exo1. Créer une variable age et l'initialiser avec une valeur.
+    Si l'âge est supérieur ou égale à 18, afficher Vous êtes majeur. Dans le cas contraire, afficher Vous êtes mineur.</p>
+
+<p class="exo">
+    <?php
+    $age = 19;
+    if ($age === 0) {
+        echo "bro, tu n'existes pas ?????!!??";
+    }
+    elseif ($age <= 17) {
+        echo "Vous êtes mineur.";
+    }else {
+        echo "Vous êtes majeur.";
+    }
+
+    ?> </p>
