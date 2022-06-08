@@ -1,0 +1,15 @@
+.titre{
+    background-color: black;
+    color: white;
+    font-size: 40px;
+    text-align: center;
+    margin: 15px;  
+    padding: 20px;
+}
+.exo{
+    background-color: rgb(211,211,211);
+    font-size: 32px;
+    text-align: center;
+    margin: 15px;  
+    padding: 20px;
+}
